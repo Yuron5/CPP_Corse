@@ -1,3 +1,3 @@
 # CPP_Course
 Author: Dp Eng. Tarnopolskiy Yuriy.
-Lessons of C++ Course study.
+These are Lessons of C++ Course study.
