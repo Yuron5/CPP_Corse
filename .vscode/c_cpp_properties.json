@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceRoot}"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "C:\\Intel\\MinGW\\bin\\gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "${workspaceRoot}",
+                    "C:\\Intel\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""                
+            }
+        }
+    ],
+    "version": 4
+}

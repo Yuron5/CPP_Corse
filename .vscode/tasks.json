@@ -1,0 +1,89 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Class_Array.cpp",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "Class_Array.cpp",
+                "-o",
+                ".exe/Class_Array.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "BlackJack",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "BlackJack.cpp",
+                "-o",
+                "a/BlackJack.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Lesson1",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "Lesson1.cpp",
+                "-o",
+                "a/Lesson1.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$go"
+            ]
+        },
+        {
+            "label": "Global_test",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "Global_test.cpp",
+                "-o",
+                "a/Global_test.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "String_test",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-g",
+                "project/Fibanacci2.cpp",
+                "String_test.cpp",
+                "-o",
+                "a/String_test.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}
