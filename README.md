@@ -3,4 +3,4 @@
 Author: Dp Eng. Tarnopolskiy Yuriy.
 ------------------------------------
 
-These are Lessons of C++ Course study.
+These are Lessons of C++ Course study for all.
